@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="VECTOR — профессиональный детейлинг и защита автомобиля.">
+  <title>VECTOR — detailing studio</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a class="logo" href="#top"><i>V</i> VECTOR <span>DETAILING</span></a><nav><a href="#services">Услуги</a><a href="#process">Процесс</a><a href="#contact">Контакты</a></nav><a class="outline" href="#calculator">Рассчитать стоимость</a><button class="menu" aria-label="Открыть меню">☰</button></header>
+  <main id="top">
+    <section class="hero">
+      <img src="assets/hero.png" alt="Полировка чёрного автомобиля в детейлинг-студии"><div class="shade"></div>
+      <div class="hero-copy"><p class="kicker"><span></span>Точность в каждой детали</p><h1>Автомобиль,<br>который снова<br><em>впечатляет.</em></h1><p>Возвращаем глубину цвета, защищаем кузов и приводим салон в состояние, которым хочется гордиться.</p><a class="cta" href="#calculator">Подобрать услугу <b>↗</b></a></div>
+      <div class="hero-index"><span>01</span><i></i><span>04</span></div>
+    </section>
+
+    <section class="services block" id="services">
+      <div class="title-row"><div><p class="kicker"><span></span>Что мы делаем</p><h2>Заметный результат.<br><strong>Без лишних обещаний.</strong></h2></div><p>Каждую работу начинаем с осмотра и предлагаем только те процедуры, которые действительно нужны автомобилю.</p></div>
+      <div class="service-grid">
+        <article><b>01</b><div class="icon paint"></div><h3>Восстановительная полировка</h3><p>Убираем мелкие царапины, потёртости и возвращаем лаку зеркальный блеск.</p><span>от 12 000 ₽</span></article>
+        <article><b>02</b><div class="icon shield"></div><h3>Керамическая защита</h3><p>Создаём прочный гидрофобный слой, который сохраняет цвет и упрощает мойку.</p><span>от 18 000 ₽</span></article>
+        <article><b>03</b><div class="icon seat"></div><h3>Детейлинг салона</h3><p>Глубокая очистка материалов, деликатная работа с кожей, пластиком и текстилем.</p><span>от 9 000 ₽</span></article>
+      </div>
+    </section>
+
+    <section class="process" id="process"><div class="process-copy"><p class="kicker"><span></span>Как всё проходит</p><h2>Четыре этапа<br><strong>до идеального вида.</strong></h2><div class="steps"><button class="active" data-step="0"><b>01</b>Осмотр</button><button data-step="1"><b>02</b>Подготовка</button><button data-step="2"><b>03</b>Работа</button><button data-step="3"><b>04</b>Выдача</button></div><div class="step-description" id="step-description"></div></div><div class="rings" aria-hidden="true"><div></div><div></div><div></div><span id="ring-number">01</span></div></section>
+
+    <section class="calculator block" id="calculator">
+      <div class="calc-intro"><p class="kicker"><span></span>Быстрый расчёт</p><h2>Узнайте ориентировочную стоимость</h2><p>Выберите кузов и необходимые работы. Точную цену мастер назовёт после бесплатного осмотра.</p></div>
+      <form id="calc-form">
+        <fieldset><legend>1. Класс автомобиля</legend><div class="choices"><label><input type="radio" name="car" value="1" checked><span>Седан</span></label><label><input type="radio" name="car" value="1.2"><span>Кроссовер</span></label><label><input type="radio" name="car" value="1.35"><span>Внедорожник</span></label></div></fieldset>
+        <fieldset><legend>2. Выберите услуги</legend><div class="checks"><label><input type="checkbox" value="12000" checked><span>Полировка кузова</span><b>12 000 ₽</b></label><label><input type="checkbox" value="18000"><span>Керамика</span><b>18 000 ₽</b></label><label><input type="checkbox" value="9000"><span>Детейлинг салона</span><b>9 000 ₽</b></label></div></fieldset>
+        <div class="total"><span>Ориентировочная стоимость</span><strong id="total">12 000 ₽</strong><button type="button" id="request">Записаться на осмотр <b>↗</b></button><small>Это демонстрационный расчёт для концепта сайта.</small></div>
+      </form>
+    </section>
+
+    <section class="contact" id="contact"><p class="kicker"><span></span>Готовы начать?</p><h2>Покажите автомобиль.<br><strong>Остальное — наша работа.</strong></h2><div><a href="tel:+79000000000">+7 (900) 000-00-00</a><a href="mailto:hello@vector-detail.ru">hello@vector-detail.ru</a></div><a class="cta blue" href="#calculator">Рассчитать стоимость <b>↗</b></a></section>
+  </main>
+  <footer><a class="logo" href="#top"><i>V</i> VECTOR</a><span>Концепт сайта для портфолио</span><span>© 2026</span></footer>
+  <div class="toast" id="toast" role="status">Заявка подготовлена. Это демонстрационный сценарий.</div>
+  <script src="script.js"></script>
+</body></html>
+
